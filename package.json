@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.7.6",
     "immer": "^5.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -17,6 +18,8 @@
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-async-to-generator": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",

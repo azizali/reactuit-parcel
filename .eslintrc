@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb", "airbnb/hooks"],
   "globals": {
-    "document": true
+    "document": true,
+    "fetch": true
   }
 }
